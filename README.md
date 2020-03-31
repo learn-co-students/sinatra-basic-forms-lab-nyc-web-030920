@@ -21,10 +21,10 @@ submission, view the puppy's information.
 
 1. Build out a puppy class in `models/puppy.rb`. Since we are not using ActiveRecord in this lab, you will write a bare Ruby model (like you did in MOD1). Puppies should have `name`, `breed`, and `age` attributes. You will need to be able to pass these three attributes to initialization, as well as readers or accessors for the attributes.
 
-2. In `app.rb` build out a GET request to load a homepage. The homepage
+√2. In `app.rb` build out a GET request to load a homepage. The homepage
    should go to the main route `/`.
 
-3. The home page will also need a new view `index.erb`. This page should
+√3. The home page will also need a new view `index.erb`. This page should
    welcome you to the Puppy Adoption Site. Add this view to the controller action.
 
 4. Now, we need a form for a user to list a new puppy that is
